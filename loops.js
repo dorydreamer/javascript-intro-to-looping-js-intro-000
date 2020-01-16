@@ -16,10 +16,12 @@ function whileLoop(n) {
   return `done`
 }
 
-var i = 0
 function doWhileLoops(num) {
+  function incrementVariable() {
+var i = 0
     i = i + 1;
-    return i;
+    return i
+  }
   do {console.log("I run once regardless.");
 } while (incrementVariable() < 10);
 }
